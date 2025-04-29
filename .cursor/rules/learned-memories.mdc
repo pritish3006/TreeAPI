@@ -1,0 +1,27 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Project Memory
+
+This file stores project-specific knowledge, conventions, and user preferences learned by the AI assistant.
+
+## Technical Decisions
+- Python Version: Python 3.12
+- Database: SQLite with Alembic migrations
+- Testing: pytest + pytest-asyncio for unit tests, TestClient for integration tests
+- Deployment: Local development first, Docker later
+- Package Management: UV for dependency management and virtual environments
+
+## Project Conventions
+- Directory Structure: Following FastAPI project structure
+- Testing: Separate directories for API and CRUD tests
+- Documentation: Extensive docstrings and comments in lowercase
+- Code Style: Following DRY and KISS principles
+- Dependencies: Using UV for faster and more reliable package management
+
+## User Preferences
+- Development: Local setup preferred initially
+- Testing: Comprehensive testing with CI pipeline planned
+- Environment: UV preferred over pip for better performance and reliability

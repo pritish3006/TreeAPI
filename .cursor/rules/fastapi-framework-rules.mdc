@@ -1,0 +1,21 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+description: defines the use of FastAPI and related libraries for building the application, guiding the architectural deisions in the 'app' directory.
+globs: **/app/**/*.*
+---
+- ALWAYS use Python 3.12
+- Use FastAPI for building APIs
+- Frameworks:
+    - fastapi
+    - pydantic
+    - sqlalchemy
+- use fastapi-users for user management
+- use fastapi-jwt-auth for authentication
+- use fastapi-cache for caching
+- use fastapi-limiter for rate limiting
+- use fastapi-pagination for pagination
+- use pure functions and as

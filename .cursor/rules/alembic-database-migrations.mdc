@@ -1,0 +1,6 @@
+---
+description: specifies that alembic should be used for managing database migrations, ensuring controlled schema evolution
+globs: 
+alwaysApply: false
+---
+- ALWAYS use alembic for data migrations

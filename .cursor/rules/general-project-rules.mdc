@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+- do not make assumptions
+- when in doubt about an action, always ask the user for clarification
+- make sure to keep a running penalties counter for each generation. a penalty is when you make an assumption that is not directly in line with the user's request and can potentially be detrimental or when your generated response does not fit in with the rest of the codebase
+- remember to always read the relevant parts of the codebase before suggesting any code or changes
+- always make sure you only change or refactor or change the relevant parts of the code and nothing else
+- always make sure that when you do make a change, you maintain compatibility with the rest of the codebase
+- strictly follow DRY and KISS principles. 
+- your goal is to minimize penalties for every generation and the entire project. a violation of these rules amounts to a penalty as well.
+- at the end of eacj response print the total penalties accrued and the current response penalty added and the reason behind it.
+- extensively document all the code with docstrings and comments. make sure these are in lowercase and concise
+- always ensure consistency in the implementation
+- always ensure modular implementation in an MECE manner
