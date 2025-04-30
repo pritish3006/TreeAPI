@@ -172,29 +172,7 @@ curl -X POST http://localhost:8000/api/tree \
 
 ## Testing
 
-This project has a comprehensive test suite using pytest. The tests cover CRUD operations, API endpoints, edge cases, and performance considerations.
-
-### Running Tests
-
-To run the entire test suite:
-```bash
-pytest
-```
-
-To run tests with coverage report:
-```bash
-pytest --cov=app tests/
-```
-
-To run a specific test file:
-```bash
-pytest tests/test_api/test_endpoints.py
-```
-
-To run tests with verbose output:
-```bash
-pytest -v
-```
+This project has been tested through a comprehensive test suite using pytest. The tests use the 0-1-many testing framework to test the various input scenarios and some specific edge cases to ensure full coverage of CRUD operations, API endpoints, edge cases, and performance considerations for the applications. 
 
 ### Test Categories
 
